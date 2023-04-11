@@ -1,4 +1,4 @@
-画像をコピペ
+<img width="1577" alt="image" src="https://user-images.githubusercontent.com/99580997/231283712-d62c3d07-487c-4281-b37a-163c15e1f528.png">
 
 # compornent（共通部品）
 - 説明
