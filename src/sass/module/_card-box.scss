@@ -1,0 +1,14 @@
+@use "global" as *;
+
+.card-box {
+    display: grid;
+    row-gap: rem(10);
+
+    @include mq(md) {
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: rem(10);
+        max-width: rem(1280);
+        width: 100%;
+        margin: 0 auto;
+    }
+}

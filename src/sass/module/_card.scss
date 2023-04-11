@@ -1,0 +1,39 @@
+@use "global" as *;
+
+.card {
+    max-width: rem(375);
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(152, 251, 152, 1);
+
+    @include mq(md) {
+        // 
+    }
+}
+
+.card>a>h2.card-title {
+    // white-space: nowrap;
+    // text-overflow: ellipsis;
+    // overflow: hidden;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    margin-bottom: rem(30);
+
+    @include mq(md) {
+        // 
+    }
+}
+
+.card>a>p.card-description {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin-bottom: rem(30);
+
+    @include mq(md) {
+        // 
+    }
+}
